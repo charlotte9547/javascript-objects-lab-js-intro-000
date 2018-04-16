@@ -11,6 +11,7 @@ delete object.key
   return object
 }
 function deleteFromObjectByKey (object, key) {
-  Object.assign ( {}, object, delete object.key)
-  return object
+const newObject = {key:'value'}
+delete newObject [key]
+return newObject
 }
