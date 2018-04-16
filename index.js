@@ -15,8 +15,8 @@ const newObject = {key:'value'}
 delete newObject [key]
 return newObject
 }
-function destructivelyDeleteFromObjectByKey (object,key) {
-var object = {key:'value'}
-return delete object.key
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
 
+  return object
 }
